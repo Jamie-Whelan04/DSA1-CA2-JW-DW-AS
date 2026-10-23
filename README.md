@@ -1,6 +1,6 @@
 # Politician Voting Manager
 
-**DSA1 – CA2** | Jamie Whelan, [DW full name], [AS full name]
+**DSA1 – CA2** | Jamie Whelan, Daniel Wall, Alwin Sabu
 
 A Java application for managing politicians and their voting records, built as part of our Data Structures & Algorithms 1 continuous assessment.
 
