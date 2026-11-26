@@ -88,25 +88,6 @@ DSA1-CA2-JW-DW-AS/
 3. Make sure the project SDK is set to your installed JDK (`File > Project Structure`).
 4. Locate the class containing the `main` method and run it.
 
-## Usage
-
-> **TODO:** Describe how to use the program, e.g. the menu options, example input, and sample output.
-
-```
-Example:
-1) Add politician
-2) Record vote
-3) Search
-...
-```
-
-## Data Structures & Algorithms Used
-
-| Component | Data Structure / Algorithm | Reason |
-|-----------|---------------------------|--------|
-| *(e.g. storing politicians)* | *(e.g. ArrayList / custom linked list)* | *(why it was chosen)* |
-| *(e.g. searching)* | *(e.g. binary search / hash map lookup)* | *(why it was chosen)* |
-| *(e.g. sorting)* | *(e.g. merge sort / quicksort)* | *(why it was chosen)* |
 
 ## Testing
 
@@ -114,11 +95,11 @@ Unit tests are located in `test/java`. To run them in IntelliJ, right-click the 
 
 ## Team
 
-| Name | GitHub | Role |
-|------|--------|------|
-| Jamie Whelan (JW) | [@Jamie-Whelan04](https://github.com/Jamie-Whelan04) | *(e.g. ...)* |
-| DW | *(handle)* | *(e.g. ...)* |
-| AS | *(handle)* | *(e.g. ...)* |
+| Name | GitHub |
+|------|--------|
+| Jamie Whelan (JW) | [@Jamie-Whelan04](https://github.com/Jamie-Whelan04) |
+| DW | [@daniel-wall06](https://github.com/daniel-wall06)| 
+| AS | [@alwin2705](https://github.com/Alwin2705)| 
 
 ---
 
