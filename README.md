@@ -21,30 +21,55 @@ A Java application for managing politicians and their voting records, built as p
 
 ## Overview
 
-The Politician Voting Manager lets a user store, organise, search and analyse information about politicians and how they vote on issues. The project focuses on choosing and implementing appropriate data structures and algorithms to manage this data efficiently.
-
-> **TODO:** Add 2–3 sentences describing the specific brief (e.g. what the assignment asked for, any constraints).
+A JavaFX application that stores, searches, sorts, and analyzes Irish political elections, candidates, and politicians using custom linear data structures, custom hash tables, and custom non-bubble sorting algorithms.
 
 ## Features
 
-- Add, edit and remove politicians
-- Record votes on bills / motions
-- Search politicians by name, party or constituency
-- Sort politicians by different criteria
-- View voting history and summary statistics
-- *(Add / remove features to match your project)*
+- Implements custom array-backed Hash Tables for O ( 1 ) direct lookups of politicians and elections
+- Utilizes non-bubble sorting algorithms (QuickSort / MergeSort) for multi-parameter result filtering
+- Supports complete CRUD operations (Create, Read, Update, Delete) for politicians, elections, and candidate records
+- Features interactive "drill-down" GUI navigation across political parties, politician profiles, and election result listings
+- Highlights seat winners dynamically in election listings based on total vote tallies
+- Implements XML/text file persistence to save and load complete application state on startup and exit
+- Includes a comprehensive suite of unit tests built using JUnit
 
 ## Project Structure
 
 ```
 DSA1-CA2-JW-DW-AS/
-├── main/              # Application source code
-├── test/java/         # Unit tests
-├── Project-.2.iml     # IntelliJ module file
+├── main/
+   ├── Java
+      ├── LinkedList
+         ├── DoublyLinkedList.java
+         ├── Node.java
+      ├──app
+         ├── Main.java
+      ├── hashtables
+         ├── ElectionHashTable.java
+         ├── PoliticianHashTable.java
+      ├── models
+         ├── Candidate.java
+         ├── Election.java
+         ├── ElectionsController.java
+         ├── Politician.java
+      ├── Sort
+         ├── ElectionSorter.java
+         ├── PoliticianSorter.java
+   ├── Resources
+      ├── Elections.fxml           
+├── test/java/
+   ├── Hashtables
+      ├── ElectionHashtableTest.java
+      ├── PoliticianHashtableTest.java
+   ├── Models
+      ├── CandidateTest.java
+      ├── ElectionTest.java
+      ├── PoliticianTest.java
+   ├── Sort
+      ├──PoliticianSorterTest.java         
+├── Project-.2.iml     
 └── README.md
 ```
-
-> **TODO:** Expand `main/` to list your key classes (e.g. `Politician.java`, `Vote.java`, `Driver.java`, and any custom data structure classes).
 
 ## Getting Started
 
